@@ -47,3 +47,31 @@
     transition: all .5s;
     line-height: 1em;
 }
+.social-platforms span {
+	float: left;
+    padding: 13px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    line-height: 1em;
+    background: #3b5998;
+    width: 90px;
+    height: 42px;
+    border-radius: 0 5px 5px 0;
+    white-space: nowrap;
+    color: #FFF;
+}
+.btn-icon > i:after {
+    content: "";
+    border: 8px solid;
+    border-color: transparent transparent transparent #333333;
+    position: absolute;
+    top: 13px;
+    right: -14px;
+}
+.social-platforms a:hover .facebook{
+	background: #b8b8b8;
+}
+.social-platforms a:hover .fa-facebook-f{
+	color:  #3b5998;
+}
