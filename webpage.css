@@ -1,0 +1,49 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+#canvas {
+ 	position: fixed;
+ 	top: 0px;
+ 	left: 0px;
+ 	z-index: -1;
+}
+.social-platforms {
+	position: relative;
+	top: 5vh;
+	font-size: 1rem;
+	text-align: center;
+	overflow: hidden;
+	min-width: 325px;
+}
+.social-platforms .btn {
+	clear: both;
+	white-space: nowrap;
+	font-size: 0.85em;
+	display: inline-block;
+	border-radius: 5px;
+	margin: 2px;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+	overflow: hidden;
+}
+.btn-icon {
+  	line-height: 32px;
+}
+.social-platforms i {
+    width: 39px;
+    height: 42px;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    text-align: center;
+    font-size: 1.45em;
+    color: #fff;
+    background: #333333;
+    float: left;
+    padding: 13px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    line-height: 1em;
+}
