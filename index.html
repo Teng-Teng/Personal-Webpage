@@ -19,61 +19,74 @@
     
     <canvas id="canvas"></canvas>
     
-    <div class="container resume-wrapper clearfix">
-      <div class="profile section-padding float-left">
-        <div class="picture-resume flex-container">
-          <div class="picture-circle flex-item">
-            <img src="./me.PNG" alt="">
+    <div class="container resume-wrapper">
+      <div class="row">
+        <div class="profile section-padding col-sm-12 col-md-5">
+          <div class="picture-resume flex-container">
+            <div class="picture-circle flex-item">
+              <img src="./me.PNG" alt="">
+            </div>
+            <div class="name flex-item mt-4">
+              <h1>
+                Teng<br>Teng
+              </h1>
+            </div>
           </div>
-          <div class="name flex-item">
-            <h1 mb-0>
-              Teng<br>Teng
-            </h1>
+
+          <div class="contact-info clearfix ml-5">
+            <ul class="list-titles">
+              <li>Cellphone</li>
+              <li>Email</li>
+              <li>Address</li>
+            </ul>
+            <ul class="list-content">
+              <li>(343)-777-3992</li>
+              <li>tteng1992@gmail.com</li>
+              <li>Ottawa, ON</li>
+            </ul>
+          </div>
+
+          <div class="education">
+            <strong>
+              <span>University of Ottawa • 2015 - 2017</span>
+              <br>
+            </strong>
+            <span>
+            Master:
+            <i>
+              Specialization in Electrical and Computer Engineering
+            </i>
+          </span>
+          </div>
+
+          <div class="social-platforms">
+            <a class="btn btn-icon btn-facebook" href="">
+              <i class="fab fa-facebook-f"></i>
+              <span class="facebook">Facebook</span>
+            </a>
+            <a class="btn btn-icon btn-googleplus" href="">
+              <i class="fab fa-stack-overflow"></i>
+              <span class="stackoverflow"><small>StackOverflow</small></span>
+            </a>
+            <a class="btn btn-icon btn-github" href="">
+              <i class="fab fa-github-alt"></i>
+              <span class="github">GitHub</span>
+            </a>
+            <a class="btn btn-icon btn-linkedin" href="">
+              <i class="fab fa-linkedin-in"></i>
+              <span class="linkedin">LinkedIn</span>
+            </a>
           </div>
         </div>
 
-        <div class="contact-info clearfix">
-          <ul class="list-titles">
-            <li>Cellphone</li>
-            <li>Email</li>
-            <li>Address</li>
-          </ul>
-          <ul class="list-content">
-            <li>(343)-777-3992</li>
-            <li>tteng1992@gmail.com</li>
-            <li>Ottawa, ON</li>
-          </ul>
+        <div class="experience section-padding col-sm-12 col-md-7 mt-5">
+
         </div>
-
-        <div class="social-platforms">
-          <a class="btn btn-icon btn-facebook" href="">
-            <i class="fab fa-facebook-f"></i>
-            <span class="facebook">Facebook</span>
-          </a>
-          <a class="btn btn-icon btn-googleplus" href="">
-            <i class="fab fa-stack-overflow"></i>
-            <span class="stackoverflow"><small>StackOverflow</small></span>
-          </a>
-          <a class="btn btn-icon btn-github" href="">
-            <i class="fab fa-github-alt"></i>
-            <span class="github">GitHub</span>
-          </a>
-          <a class="btn btn-icon btn-linkedin" href="">
-            <i class="fab fa-linkedin-in"></i>
-            <span class="linkedin">LinkedIn</span>
-          </a>
-        </div>
-      </div>
-
-
-
-      <div class="experience section-padding float-left">
-
       </div>
 
     </div>
 
-    <div ng-app="time" ng-controller="Ctrl2">
+    <div ng-app="time" ng-controller="Ctrl2" class="my-5">
       <span my-current-time="format" class="currentTime mx-auto"></span>
     </div>
 
