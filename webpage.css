@@ -122,10 +122,11 @@ body {
 	text-align: center;
 }
 .experience {
-	background-color: #3d3e42;
-	width: 60%;
+	background-color: rgb(61, 62, 66, 0.7);
+	/*width: 60%;*/
 	color: #bac0c4;
 	font-weight: 300;
+	text-align: left;
 }
 .flex-container {
 	display: -webkit-flex;
@@ -184,4 +185,16 @@ display:-webkit-flex;
 	font-weight: 300;
 	margin-top: 40px;
 	margin-bottom: 20px;
+}
+h3.experience-title {
+	color: #66cc99;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+.experience-title {
+	color: white;
+	margin-bottom: 10px;
 }
