@@ -198,6 +198,12 @@ h3.experience-title {
 	color: white;
 	margin-bottom: 10px;
 }
+.skills {
+	text-align: left;
+	color: #bac0c4;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
 .skills h3 {
 	color: #66cc99;
 	/*color: #28a745;*/
@@ -217,3 +223,44 @@ h3.experience-title {
 .skills li {
 	margin-bottom: 16px;
 }
+.projects {
+	text-align: left;
+	color: #bac0c4;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+.project-name {
+	color: orange;
+	margin-bottom: 5px;
+}
+small {
+	font-size: 85%;
+}
+.project-title {
+	/*color: #66cc99;*/
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -38,5 +38,5 @@ var time = angular.module('time', [])
     });
 
 time.controller('Ctrl2',function($scope){
-    $scope.format = 'yyyy-MM-dd h:mm:ss';
+    $scope.format = 'yyyy-MM-dd h:mm:ss a';
 });
