@@ -141,10 +141,18 @@ body {
 	/*height: 100px;*/
 	margin: 10px;
 }
-.picture-circle img{
+/*.picture-circle img{*/
+	/*border-radius: 50%;*/
+	/*width: 110px;*/
+	/*height: 110px;*/
+/*}*/
+.picture-circle {
 	border-radius: 50%;
 	width: 110px;
 	height: 110px;
+	background-size: cover;
+	background-position: bottom right;
+	background-image: url('./Jack.jpg');
 }
 .name {
 	justify-content:center;//子元素水平居中
